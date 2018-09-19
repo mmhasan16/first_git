@@ -22,3 +22,6 @@ working copy -> staging area ->> repository
 
 => Viewing the Changes That You Made
 	14. git diff
+15. git rm t.txt [ delete file]
+
+=> rename and move file
