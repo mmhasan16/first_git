@@ -13,3 +13,5 @@
 => commit
 10. git commit -m "This file contain git commands" text.txt
 11. git commit -am "This file contain git commands" [all file changes commit]
+12. git log [see all commit of all users] 
+13. git log --author="Hasan" 
