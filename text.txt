@@ -25,3 +25,6 @@ working copy -> staging area ->> repository
 15. git rm t.txt [ delete file]
 
 => rename and move file
+	-> git mv home.txt index.txt
+	-> git mv home.txt f1/index.txt
+
