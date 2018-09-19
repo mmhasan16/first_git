@@ -30,3 +30,9 @@ working copy -> staging area ->> repository
 
 => Checkout
 	-> git checkout -- index.php [ if need previous version op any file then this command will recover that from git repository]
+
+=> Unstage file
+	- git reset HEAD profile.php [If not ready yet to make commit but we move working copy to staging area then we need to unstage that file thats why thius command]
+
+=> Getting Old Versions from the Repository
+	-> git checkout 6905e794 -- index.php [6905e794 is commit number for old version thats i want get old version of any file without deleting any other files.]
