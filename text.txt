@@ -1,6 +1,10 @@
 1. git init
 2. git status
-3. git add text.txt
+===================================
+working copy -> staging area ->> repository
+
+=======================================
+3. git add text.txt {staging area}
 4. git add . [all file add]
 
 => config username and email
@@ -8,10 +12,12 @@
 6. git config --global user.email "mmhasan.uiu@gmail.com"
 7. git config --list [to see configuration files]
 8. git helo
-9.git help commit [see single command help on browser]
+9. git help commit [see single command help on browser]
 
-=> commit
+=> commit {repository}
 10. git commit -m "This file contain git commands" text.txt
-11. git commit -am "This file contain git commands" [all file changes commit]
+11. git commit -m "This file contain git commands" [all file changes commit]
 12. git log [see all commit of all users] 
 13. git log --author="Hasan" 
+
+14. 
