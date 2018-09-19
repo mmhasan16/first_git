@@ -28,3 +28,5 @@ working copy -> staging area ->> repository
 	-> git mv home.txt index.txt
 	-> git mv home.txt f1/index.txt
 
+=> Checkout
+	-> git checkout -- index.php [ if need previous version op any file then this command will recover that from git repository]
