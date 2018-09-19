@@ -8,16 +8,17 @@ working copy -> staging area ->> repository
 4. git add . [all file add]
 
 => config username and email
-5. git config --global user.name "Mahmudul Hasan"
-6. git config --global user.email "mmhasan.uiu@gmail.com"
+	5. git config --global user.name "Mahmudul Hasan"
+	6. git config --global user.email "mmhasan.uiu@gmail.com"
 7. git config --list [to see configuration files]
 8. git helo
 9. git help commit [see single command help on browser]
 
 => commit {repository}
-10. git commit -m "This file contain git commands" text.txt
-11. git commit -m "This file contain git commands" [all file changes commit]
+	10. git commit -m "This file contain git commands" text.txt
+	11. git commit -m "This file contain git commands" [all file changes commit]
 12. git log [see all commit of all users] 
 13. git log --author="Hasan" 
 
-14. 
+=> Viewing the Changes That You Made
+	14. git diff
